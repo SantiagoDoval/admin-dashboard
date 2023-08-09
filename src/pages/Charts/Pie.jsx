@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Pie = () => {
+const Pie = (props) => {
+  console.log(props);
   return (
     <div>Pie</div>
   )
