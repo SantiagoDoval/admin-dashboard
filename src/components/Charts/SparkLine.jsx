@@ -14,8 +14,7 @@ class SparkLine extends React.PureComponent{
         valueType='Numeric'
         fill={color}
         border={{ color: currentColor, width: 2 }}
-        dataSource={data}
-        //containerArea={{background:'#ff0000'}}      
+        dataSource={data}        
         xName='x'
         yName='y'
         type={type}
